@@ -1,0 +1,4 @@
+.polygon {
+	clip-path: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><clippath id="clipPath" clipPathUnits="objectBoundingBox"><polygon points="0 0 0.5 0 0.5 0.5 1.2 0"></polygon></clippath></svg>#clipPath');
+	clip-path: polygon(0 0, 50% 0, 50% 50%, 120% 0);
+}
