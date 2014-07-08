@@ -145,7 +145,7 @@ ClipPath.prototype.postcss = function (css) {
 					var svg = document.createElement('svg');
 						svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
 					// new <clippath> element
-					var clipPath = document.createElement('clippath');
+					var clipPath = document.createElement('clipPath');
 						clipPath.id = _this.options.id;
 						// add attributes
 						for (var attribute in properties.attributes) {

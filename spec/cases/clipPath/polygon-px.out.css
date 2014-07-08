@@ -1,4 +1,4 @@
 .polygon {
-	clip-path: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><clippath id="clipPath"><polygon points="0 0 100 0 100 100"></polygon></clippath></svg>#clipPath');
+	clip-path: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><clipPath id="clipPath"><polygon points="0 0 100 0 100 100"></polygon></clipPath></svg>#clipPath');
 	clip-path: polygon(0 0, 100px 0, 100px 100px);
 }
